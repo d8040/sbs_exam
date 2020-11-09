@@ -72,7 +72,6 @@ public class MemberController extends Controller {
 				System.out.println("로그인을 취소합니다.");
 				break;
 			}
-			System.out.println();
 			System.out.printf("아이디: ");
 			loginId = Container.sc.nextLine().trim();
 

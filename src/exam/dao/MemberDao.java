@@ -13,10 +13,6 @@ public class MemberDao {
 	public MemberDao() {
 		lastId = 0;
 		members = new ArrayList<Member>();
-		
-		for (int i = 0; i < 3; i++) {
-			join("user"+i, "user"+i, "user"+i);
-		}
 	}
 
 	public int join(String loginId, String loginPw, String name) {
